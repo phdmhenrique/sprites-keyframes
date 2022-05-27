@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#anima-div {
+    background: url(../imagens2/meu-sprite.png) -0px -100px;
+    width: 260px;
+    height: 160px;
+    animation: anima-sprite .8s steps(8) infinite;
+}
+
+@keyframes anima-sprite {
+    100% {
+        background-position-x: -1920px;
+    }
+}
+
+/* #anima-div {
+    background-image: url("../imagens2/ciclo-animacao.jpg");
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 240px;
+    animation: anima-sprite 1s steps(8) infinite;
+}
+
+@keyframes anima-sprite {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -1920px;
+    }
+} */
